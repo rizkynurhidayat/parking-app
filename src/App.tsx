@@ -3,7 +3,7 @@ import { useParkingData } from './hooks/useParkingData';
 import { ParkingMap } from './components/ParkingMap';
 import { BookingForm } from './components/BookingForm';
 import { BookingDetails } from './components/BookingDetails';
-import { CarFront, Search, LayoutDashboard, Settings, Info } from 'lucide-react';
+import { CarFront, Search, LayoutDashboard } from 'lucide-react';
 
 function App() {
   const { spots, booking, bookSpot, endSession } = useParkingData();
@@ -50,12 +50,6 @@ function App() {
         <nav className="flex flex-col gap-6">
           <button className="p-3 text-indigo-600 bg-indigo-50 rounded-xl transition-all">
             <LayoutDashboard size={24} />
-          </button>
-          <button className="p-3 text-slate-400 hover:text-slate-600 hover:bg-slate-50 rounded-xl transition-all">
-            <Info size={24} />
-          </button>
-          <button className="p-3 text-slate-400 hover:text-slate-600 hover:bg-slate-50 rounded-xl transition-all">
-            <Settings size={24} />
           </button>
         </nav>
       </aside>
