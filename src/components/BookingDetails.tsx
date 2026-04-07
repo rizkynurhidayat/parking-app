@@ -66,7 +66,7 @@ export const BookingDetails: React.FC<Props> = ({ booking, onEndSession }) => {
             <Car size={18} />
           </div>
           <div className="ml-4">
-            <div className="text-[10px] font-black text-slate-400 uppercase tracking-widest">Vehicle</div>
+            <div className="text-[10px] font-black text-slate-400 uppercase tracking-widest">Vehicle car</div>
             <div className="font-bold text-slate-700 uppercase">{booking.vehicleNumber}</div>
           </div>
         </div>
