@@ -137,7 +137,7 @@ function App() {
               {!booking && !selectedSpot && (
                 <div className="mt-8 p-6 bg-indigo-50 rounded-3xl border border-indigo-100/50">
                   <h4 className="text-sm font-black text-indigo-900 uppercase tracking-widest mb-2 flex items-center gap-2">
-                    <Info size={16} /> Quick Tip
+                    {/* <info size={16} /> Quick Tip */}
                   </h4>
                   <p className="text-sm text-indigo-700 leading-relaxed">
                     Green spots are ready to be reserved. Simply click on a slot to start your session.
