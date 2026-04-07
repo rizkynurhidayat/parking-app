@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import type { Booking } from '../types';
 import { format } from 'date-fns';
-import { Clock, Car, User, AlertCircle, CheckCircle2, LogOut } from 'lucide-react';
+import { Clock, Car, User, AlertCircle, LogOut } from 'lucide-react';
 
 interface Props {
   booking: Booking;
